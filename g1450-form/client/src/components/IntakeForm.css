@@ -1,0 +1,63 @@
+.intake-form {
+    max-width: 90%; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .intake-form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .intake-form-column {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .intake-form div {
+    margin-bottom: 15px;
+  }
+  
+  .intake-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .intake-form input,
+  .intake-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .intake-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .intake-form button:hover {
+    background-color: #45a049;
+  }
+
+  .currency-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currency-input span {
+    margin-right: 5px; 
+    font-size: 20px;
+  }
+  
